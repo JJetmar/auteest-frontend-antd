@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'AntD Admin',
+  siteName: 'Auteest',
   copyright: 'Ant Design Admin  © 2018 zuiidea',
   logoPath: '/logo.svg',
   apiPrefix: '/api/v1',
@@ -10,7 +10,7 @@ module.exports = {
     {
       name: 'primary',
       include: [/.*/],
-      exclude: [/(\/(en|zh))*\/login/],
+      exclude: [/(\/(en|cs))*\/login/],
     },
   ],
 
@@ -19,21 +19,16 @@ module.exports = {
     /* Countrys flags: https://www.flaticon.com/packs/countrys-flags */
     languages: [
       {
-        key: 'pt-br',
-        title: 'Português',
-        flag: '/brazil.svg',
-      },
-      {
         key: 'en',
         title: 'English',
         flag: '/america.svg',
       },
       {
-        key: 'zh',
-        title: '中文',
-        flag: '/china.svg',
+        key: 'cs',
+        title: 'Čeština',
+        flag: '/czech.svg',
       },
     ],
-    defaultLanguage: 'en',
+    defaultLanguage: 'cs',
   },
 }

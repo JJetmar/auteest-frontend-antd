@@ -3,6 +3,13 @@ const { ApiPrefix } = Constant
 
 const database = [
   {
+    id: '600',
+    breadcrumbParentId: '1',
+    name: 'Entities',
+    icon: 'hdd',
+    route: '/entities',
+  },
+  {
     id: '1',
     icon: 'dashboard',
     name: 'Dashboard',
@@ -145,7 +152,7 @@ const database = [
     },
     icon: 'area-chart',
     route: '/chart/Recharts',
-  },
+  }
 ]
 
 module.exports = {

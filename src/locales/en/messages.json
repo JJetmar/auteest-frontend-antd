@@ -50,5 +50,16 @@
   "Username": "Username",
   "Views": "Views",
   "Visibility": "Visibility",
-  "You have viewed all notifications.": "You have viewed all notifications."
+  "You have viewed all notifications.": "You have viewed all notifications.",
+  "entities.addAttribute": "Add attribute",
+  "entities.noRestrictions": "No restrictions",
+  "jsonSchema.simpleTypes.boolean": "Boolean",
+  "jsonSchema.simpleTypes.string": "String",
+  "jsonSchema.simpleTypes.number": "Number",
+  "jsonSchema.simpleTypes.null": "Null",
+  "jsonSchema.simpleTypes.enum": "Enumeration",
+  "jsonSchema.simpleTypes.array": "Array",
+  "jsonSchema.simpleTypes.object": "Object",
+  "jsonSchema.simpleTypes.integer": "Integer",
+  "jsonSchema.simpleTypes.reference": "Reference"
 }
